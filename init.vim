@@ -70,6 +70,10 @@ set spellfile=$HOME/.vim/spell/en.utf-8.add
 
 set rtp+=/usr/local/opt/fzf
 
+"auto save when lost focus
+autocmd FocusLost * wa
+"autocmd BufLeave,FocusLost * silent! wall
+
 "THEME
 colorscheme iceberg
 set background=dark
