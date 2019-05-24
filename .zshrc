@@ -1,6 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH=$HOME/bin:/usr/bin:/usr/local/bin:$HOME/Library/Python/2.7/bin:$HOME/Library/Python/3.7/bin:$PATH:$HOME/.rvm/bin
+export PATH=$HOME/bin:/usr/bin:/usr/local/bin:$HOME/Library/Python/2.7/bin:$HOME/Library/Python/3.7/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
