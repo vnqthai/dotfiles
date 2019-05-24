@@ -157,3 +157,5 @@ _gen_fzf_default_opts() {
 _gen_fzf_default_opts
 
 [ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
+
+eval "$(rbenv init -)"
