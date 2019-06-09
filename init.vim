@@ -108,6 +108,8 @@ nnoremap <leader>f :FZF<enter>
 nnoremap <leader>n :NERDTreeToggle<enter>
 nnoremap <leader>m :NERDTreeFind<enter>
 
+nnoremap <leader>d obinding.pry<esc>
+
 call esearch#map('<leader>s', 'esearch') "start esearch prompt
 "call esearch#map('<leader>sw', 'esearch-word-under-cursor') "start esearch with the word under the cursor; not need because can be set in g:esearch.use, and it could cause delay after pressing key because of duplicated <leader>s prefix
 
