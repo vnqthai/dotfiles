@@ -5,7 +5,7 @@
 
 # primary prompt
 PROMPT='
-$FG[068]%4~ $(git_prompt_info)
+$FG[068]%(5~|…/%4~|%~) $(git_prompt_info)
 $FG[068]✈ %{$reset_color%}'
 # Above line: Put prompt char after the first ] (example: ➜ or $ or anything else)
 # Can consider to add spaces at the end
