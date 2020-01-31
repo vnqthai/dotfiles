@@ -86,11 +86,11 @@ tmap kj <esc>
 nnoremap <c-w>m <c-w>_<c-w>\|
 
 "gitgutter
-nmap tn <Plug>GitGutterNextHunk
-nmap tp <Plug>GitGutterPrevHunk
-nmap td <Plug>GitGutterPreviewHunk
-nmap tu <Plug>GitGutterUndoHunk
-nmap ts <Plug>GitGutterStageHunk
+nmap tn <Plug>(GitGutterNextHunk)
+nmap tp <Plug>(GitGutterPrevHunk)
+nmap td <Plug>(GitGutterPreviewHunk)
+nmap tu <Plug>(GitGutterUndoHunk)
+nmap ts <Plug>(GitGutterStageHunk)
 "not use 'g' as prefix because it conflicts with many other default keys
 "not use gu for undo hunk because it conflicts with convert to lowercase
 
