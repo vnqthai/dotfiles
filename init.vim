@@ -75,7 +75,9 @@ autocmd FocusLost * wa
 "autocmd BufLeave,FocusLost * silent! wall
 
 "THEME
-colorscheme iceberg
+" colorscheme iceberg
+colorscheme onedark
+" colorscheme dracula
 set background=dark
 
 "KEY MAPPINGS
