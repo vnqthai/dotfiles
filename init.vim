@@ -23,6 +23,7 @@ Plug 'ntpeters/vim-better-whitespace' "whitespace highlighting
 Plug 'cocopon/iceberg.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'joshdick/onedark.vim'
+Plug 'agreco/vim-citylights'
 call plug#end()
 "comment on why choose supertab plugin: there are many more powerful auto-complete plugins (YouCompleteMe, deoplete)
 "but a lightweight, context-based (openning files, etc.), not a language-wide complete machanism, is what I need
@@ -78,6 +79,7 @@ autocmd FocusLost * wa
 " colorscheme iceberg
 colorscheme onedark
 " colorscheme dracula
+" colorscheme citylights
 set background=dark
 
 "KEY MAPPINGS
@@ -110,7 +112,9 @@ nnoremap <leader>f :FZF<enter>
 nnoremap <leader>n :NERDTreeToggle<enter>
 nnoremap <leader>m :NERDTreeFind<enter>
 
-nnoremap <leader>d obinding.pry<esc>
+" nnoremap <leader>d obinding.pry<esc>
+nnoremap <leader>d ojard<esc>
+nnoremap <leader>z oputs '#'*120<c-m>puts '#'*120<esc>Opp 
 
 call esearch#map('<leader>s', 'esearch') "start esearch prompt
 "call esearch#map('<leader>sw', 'esearch-word-under-cursor') "start esearch with the word under the cursor; not need because can be set in g:esearch.use, and it could cause delay after pressing key because of duplicated <leader>s prefix
