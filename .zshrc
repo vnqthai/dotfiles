@@ -156,6 +156,8 @@ _gen_fzf_default_opts() {
 }
 _gen_fzf_default_opts
 
+export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
+
 [ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
 
 eval "$(rbenv init -)"
