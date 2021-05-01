@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/bin:/usr/local/bin:$HOME/Library/Python/2.7/bin:$HOME/Library/Python/3.7/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/usr/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -111,7 +111,6 @@ export TERM=xterm-256color
 export EDITOR=nvim
 export JSDRIVER=chrome
 export PAGER="less -S" # for helping psql to scroll horizontally
-export COMPETITIVE_PROGRAMMING_LOCAL=true
 
 # Secret environment variables
 [ -f $HOME/.zsh/secrets.sh ] && source $HOME/.zsh/secrets.sh

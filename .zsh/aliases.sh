@@ -1,6 +1,4 @@
 alias v="nvim"
-alias p="/usr/local/bin/python3"
-alias pip="/usr/local/bin/pip3"
 
 alias d="docker"
 alias dc="docker-compose"
